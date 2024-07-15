@@ -1,0 +1,69 @@
+body{
+    background-image: url("https://us.123rf.com/450wm/stillfx/stillfx1909/stillfx190900005/129708996-craie-effac%C3%A9e-sur-fond-de-tableau-noir.jpg?ver=6");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+
+h1{
+    margin-top: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 0.6em;
+    cursor: pointer;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+    
+button:hover {
+    background-color: black;
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.Craie{
+    margin-top: 2%;
+    width: 200px;
+}
+
+#jeu{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.case{
+    color: red;
+    border: 3px solid white;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
